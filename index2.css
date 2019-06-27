@@ -1,0 +1,345 @@
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    width: 500px;
+    height: 500px;  
+}
+
+.main {
+    width: 400px;
+    height: 500px;
+    background-color: #c00d0d;
+    border-top-left-radius: 30px;
+		-webkit-border-top-left-radius: 30px;
+		-moz-border-top-left-radius: 30px;
+		-o-border-top-left-radius: 30px;
+}
+
+.bg_curve1_left
+	{
+        display: flex;
+		width: 400px;
+		height: 80px;
+		background-color: #8b0000;
+
+		border-top-left-radius: 30px;
+		-webkit-border-top-left-radius: 30px;
+		-moz-border-top-left-radius: 30px;
+		-o-border-top-left-radius: 30px;
+        
+}
+
+.curve1_left
+	{
+        display: flex;
+        box-sizing: border-box;
+		width: 201px;
+		height: 85px;
+		background-color: #8b0000;
+		
+        padding: 15px 0 0 15px;
+        justify-content: left;
+        
+
+		
+		box-shadow: -10px 9px #5e0000;
+		-webkit-box-shadow: -10px 9px #5e0000;
+		-moz-box-shadow: -10px 9px #5e0000;
+		-o-box-shadow: -10px 9px #5e0000;
+
+		border-bottom-right-radius: 60px 85px;
+		-webkit-border-bottom-right-radius: 60px 85px;
+		-moz-border-bottom-right-radius: 60px 85px;
+        -o-border-bottom-right-radius: 60px 85px;
+        
+
+		border-top-left-radius: 30px;
+		-webkit-border-top-left-radius: 30px;
+		-moz-border-top-left-radius: 30px;
+        -o-border-top-left-radius: 30px;
+        
+    }
+    
+.curve2_left
+	{
+        display: flex;
+        box-sizing: border-box;
+		width: 250px;
+		height: 100px;
+		background-color: #c00d0d;
+        margin-top:45px;
+		
+		margin-left: -50px;
+        
+
+		
+		border-top-left-radius:60px 85px;
+		-webkit-border-top-left-radius: 60px 85px;
+		-moz-border-top-left-radius: 60px 85px;
+        -o-border-top-left-radius: 60px 85px;
+        
+	}
+	.bg_curve2_left
+	{	display :flex;
+		flex-direction: row;
+		flex-flow: wrap;
+		width: 400px;
+		height: 420px;
+		background-color: #c00d0d;
+
+		box-shadow: -10px 9px #5e0000;
+		-webkit-box-shadow: -10px 9px #5e0000;
+		-moz-box-shadow: -10px 9px #5e0000;
+		-o-box-shadow: -10px 9px #5e0000;
+
+		border-bottom-left-radius: 30px;
+		-webkit-border-bottom-left-radius: 30px;
+		-moz-border-bottom-left-radius: 30px;
+		-o-border-bottom-left-radius: 30px;
+    }
+
+
+
+
+
+.roundcircle {
+    height: 60px;
+    width: 60px;
+    background-color: #61d7f1;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px solid white;
+    margin-top: -5px;
+}
+
+
+.smallcircle {
+    height: 25px;
+    width: 25px;
+    background-color: #61d7f1;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+.smallcirclered {
+	background-color: #e44d4d;
+	box-shadow: 0 0 10px #490000;
+		-webkit-box-shadow: 0 0 10px #490000;
+		-moz-box-shadow: 0 0 10px #490000;
+		-o-box-shadow: 0 0 10px #490000;
+}
+
+.smallcircleyellow {
+	background-color: #fdfd49;
+	box-shadow: 0 0 10px #490000;
+		-webkit-box-shadow: 0 0 10px #490000;
+		-moz-box-shadow: 0 0 10px #490000;
+		-o-box-shadow: 0 0 10px #490000;
+}
+
+.smallcirclegreen {
+	background-color: #65e839;
+	box-shadow: 0 0 10px #490000;
+		-webkit-box-shadow: 0 0 10px #490000;
+		-moz-box-shadow: 0 0 10px #490000;
+		-o-box-shadow: 0 0 10px #490000;
+
+}
+
+
+.trapezoid {
+	display: flex;
+	flex-direction: column row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	
+	height: 235px;
+	width: 320px;
+	margin-top: 25px;
+	margin-left: 30px;
+	background-color: #b0b0b0;
+	
+
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.trapezoid:after {
+    content: "";
+    border-top: 40px solid #b0b0b0;
+    border-left: 40px solid #c00d0d;
+    height: 0;
+
+    position: absolute;
+    bottom: 160px;
+    left: 29px;
+}
+
+
+.tvcircle {
+    width: 275px;
+    height: 160px;
+    border: 4px solid black;
+    border-radius: 20px;
+	margin-top: 10px;
+	margin-left: 15px;
+	
+
+}
+
+.imageborder {
+    border-radius: 20px;
+    width: 275px;
+    height: 160px;
+}
+
+
+.twominicircle {
+    height: 15px;
+    width: 15px;
+    background-color: #ec5b5b;
+	border-radius: 50%;
+	margin-left: 40px;
+    
+   
+}
+.twominicircle1 {
+	margin-left: 110px;
+	margin-top: 5px;
+	margin-bottom: -5px
+}
+
+.twominicircle2 {
+	
+	margin-top: 5px;
+	margin-bottom: -5px
+}
+
+.onehalfcircle {
+    height: 30px;
+    width: 30px;
+    background-color: #a30606;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-left: 40px;
+  
+   
+}
+
+.circleblue {
+    height: 60px;
+    width: 60px;
+    background-color: #1750ee;
+	border-radius: 50%;
+	margin-left: 35px;
+	margin-top: -10px;
+	box-shadow: -3px 2px #001c91;
+	-webkit-box-shadow: -3px 2px #001c91;
+	-moz-box-shadow: -3px 2px #001c91;
+	-o-box-shadow: -3px 2px #001c91;
+   
+}
+
+.greenrechthoek {
+    height: 15px;
+    width: 50px;
+    background-color: green;
+    border-radius: 5px;
+	margin-top: 7px;
+	margin-left: 20px;
+	box-shadow: -1px 2px #004200;
+	-webkit-box-shadow: -1px 2px #004200;
+	-moz-box-shadow: -1px 2px #004200;
+	-o-box-shadow: -1px 2px #004200;
+}
+
+.orangerechthoek {
+    height: 15px;
+    width: 50px;
+    background-color: orange;
+	border-radius: 5px;
+	margin-top: 7px;
+	margin-left: 5px;
+	box-shadow: -1px 2px #7b0000;
+	-webkit-box-shadow: -1px 2px #7b0000;
+	-moz-box-shadow: -1px 2px #7b0000;
+	-o-box-shadow: -1px 2px #7b0000;
+   
+}
+
+.zwart {
+    height: 25px;
+    width: 25px;
+	background-color: black;
+	
+    
+   
+}
+
+.zwart1 {
+    height: 25px;
+    width: 25px;
+	background-color: black;
+	
+    margin-left: 25px;
+   
+}
+
+
+.dezwarteknop {
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+
+.zwartereep {
+	display: flex;
+}
+
+
+.greencalender {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 50px;
+    width: 125px;
+    background-color: #00665f;
+	border-radius: 8px;
+	margin-top: -20px;
+	margin-left: 100px;
+    
+}
+
+
+.whitecalender {
+    
+    height: 30px;
+    width: 95px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  
+    font-size: 30px;
+    text-align: center;
+}
+
+.beneathtrapazoid {
+	display: flex;
+	flex-flow: wrap;
+}
+
+
+
+
+
+
